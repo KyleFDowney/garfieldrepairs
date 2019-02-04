@@ -1,12 +1,12 @@
 body {
     background-image:url('../img/gray_brick_wall.gif');
-    font-family:"Quattrocento", sans-serif;
+    font-family: roboto;
     font-size:16px;
     color:#111;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    font-family:"Quattrocento", sans-serif;
+h1, h2, h3, h5, h6, p {
+    font-family:"Quattrocento", roboto;
 }
 
 h1 {
@@ -18,6 +18,7 @@ h1 {
 h4 {
     margin:5px 0 0 0;
     font-size:18px;
+    font-family: roboto;
 }
 
 .row {
@@ -130,7 +131,7 @@ h4 {
     padding:10px;
     background-color:rgba(16, 16, 16, 0.8);
     font-size:32px;
-    font-family:'Roboto', sans-serif;
+    font-family:'Roboto', roboto;
     text-align:center;
     color:#eee;
 }
@@ -154,7 +155,7 @@ h4 {
     background-color:rgba(16,16,16,0.6);
     margin:20px auto;
     padding:30px 20px 50px 20px;
-    font-family:'Roboto', sans-serif;
+    font-family:'Roboto', roboto;
 }
 
 .gbm-jumbotron-img {
@@ -218,7 +219,7 @@ h4 {
         background-color:#B25C14;
         font-size:20px;
         color:#eee;
-        font-family:'Roboto', sans-serif;
+        font-family:'Roboto', roboto;
     }
 }
 
@@ -232,7 +233,7 @@ h4 {
         background-color:#B25C14;
         font-size:24px;
         color:#eee;
-        font-family:'Roboto', sans-serif;
+        font-family:'Roboto', roboto;
     }
 }
 
@@ -254,6 +255,10 @@ h4 {
         margin:0 7px 15px 5px;
         border-bottom:1px solid #676767;
     }
+}
+
+.gbm-sub-title {
+    font-family:"Quattrocento", roboto;
 }
 
 @media (max-width:767px) {
